@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 1387181905444846487}
   - component: {fileID: 391672947378859073}
   - component: {fileID: 4347801885480950753}
+  - component: {fileID: 2097802062611404281}
   m_Layer: 0
   m_Name: "\uBCF5\uD569\uD328\uB110"
   m_TagString: Untagged
@@ -96,10 +97,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1899424494852194181}
   - {fileID: 5979995484824710424}
   - {fileID: 5259835707151880202}
   - {fileID: 3282547464659776821}
-  - {fileID: 1899424494852194181}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -191,6 +192,20 @@ MonoBehaviour:
   m_FlexibleWidth: 2
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &2097802062611404281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190823321982764228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00effe15858ec844ba7c4e98dd50f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PanelHover
+  panelImage: {fileID: 1387181905444846487}
+  shadowImage: {fileID: 7816856257508403448}
 --- !u!1 &376462996157697354
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +730,7 @@ GameObject:
   - component: {fileID: 3256726108864089616}
   - component: {fileID: 3971173166397879715}
   m_Layer: 0
-  m_Name: Image
+  m_Name: "\uD638\uBC84\uC6A9\uADF8\uB9BC\uC790"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
