@@ -243,7 +243,6 @@ GameObject:
   - component: {fileID: 4083541712272337448}
   - component: {fileID: 2029791249553396267}
   - component: {fileID: 4215685949607964464}
-  - component: {fileID: 6504934834012645671}
   m_Layer: 0
   m_Name: "\uC8FC\uC694\uBC84\uD2BC"
   m_TagString: Untagged
@@ -373,19 +372,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6504934834012645671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6528952640572898207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 615204b3e87668042a35a6ae304fff38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ModernButtonAnim
-  style: 0
 --- !u!1 &8692450665556284933
 GameObject:
   m_ObjectHideFlags: 0
