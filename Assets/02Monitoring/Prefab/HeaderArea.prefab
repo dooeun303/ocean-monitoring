@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 9173908288566553204}
   - component: {fileID: 4789769679043928205}
   - component: {fileID: 3374112568724998373}
-  - component: {fileID: 2631864868005069554}
+  - component: {fileID: 5769189651029122130}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -460,7 +460,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &2631864868005069554
+--- !u!114 &5769189651029122130
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,12 +469,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6401736956753395409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bd4c2827c5382a47b42c11f19590e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b3e86ccbe765d24d96c878a17301b69, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
-  colorLeft: {r: 0.4509804, g: 0.8117647, b: 0.4745098, a: 1}
-  colorMiddle: {r: 0.3137255, g: 0.72156864, b: 0.72156864, a: 1}
-  colorRight: {r: 0.22352941, g: 0.47058824, b: 0.72156864, a: 1}
+  m_EditorClassIdentifier: Assembly-CSharp::TextGradient
 --- !u!1 &9168634163078603016
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +842,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -18
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6504934834012645671, guid: d95a4ba2ca94e2947b1e5e62561e52b2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

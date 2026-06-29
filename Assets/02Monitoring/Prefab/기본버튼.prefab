@@ -188,7 +188,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 45, y: -50}
-  m_SizeDelta: {x: 82.08, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8114608524714188385
 MonoBehaviour:
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 4083541712272337448}
   - component: {fileID: 2029791249553396267}
   - component: {fileID: 7136691279452160317}
-  - component: {fileID: 5381468033112882690}
+  - component: {fileID: 5815542144950962293}
   m_Layer: 0
   m_Name: "\uAE30\uBCF8\uBC84\uD2BC"
   m_TagString: Untagged
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5381468033112882690
+--- !u!114 &5815542144950962293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -382,10 +382,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6528952640572898207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 615204b3e87668042a35a6ae304fff38, type: 3}
+  m_Script: {fileID: 11500000, guid: d0ad9e4e2d0ffb54899fb4219b981479, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ModernButtonAnim
-  style: 0
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonHoverColor
+  buttonText: {fileID: 3170076456989910799}
 --- !u!1 &8692450665556284933
 GameObject:
   m_ObjectHideFlags: 0
