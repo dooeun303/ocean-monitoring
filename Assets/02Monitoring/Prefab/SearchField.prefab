@@ -202,7 +202,6 @@ GameObject:
   - component: {fileID: 4533239456786044927}
   - component: {fileID: 4960066009768462312}
   - component: {fileID: 7695237889056858911}
-  - component: {fileID: 244161510370203979}
   m_Layer: 0
   m_Name: SearchField
   m_TagString: Untagged
@@ -307,7 +306,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -318,8 +317,8 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: fea485d1c5d9d314082975605a2b4146, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: fea485d1c5d9d314082975605a2b4146, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -401,21 +400,6 @@ MonoBehaviour:
   isAlert: 0
   m_InputValidator: {fileID: 0}
   m_ShouldActivateOnSelect: 1
---- !u!114 &244161510370203979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5302121137031920288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1672df09be5c18848a825ae0cbe83542, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputFieldSelect
-  targetImage: {fileID: 4960066009768462312}
-  normalSprite: {fileID: 21300000, guid: 9e4af1ed760f9ca4493d21837d2e807d, type: 3}
-  selectSprite: {fileID: 21300000, guid: fea485d1c5d9d314082975605a2b4146, type: 3}
 --- !u!1 &7116732530172674847
 GameObject:
   m_ObjectHideFlags: 0
