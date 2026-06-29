@@ -1,0 +1,22 @@
+# Unity generated
+Library/
+Temp/
+Logs/
+UserSettings/
+Builds/
+obj/
+
+# Unity PackageCache
+Library/PackageCache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.csproj
+*.sln
