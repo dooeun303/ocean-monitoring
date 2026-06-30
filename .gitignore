@@ -20,3 +20,5 @@ Thumbs.db
 *.user
 *.csproj
 *.sln
+".vs/" 
+.vs/ 
