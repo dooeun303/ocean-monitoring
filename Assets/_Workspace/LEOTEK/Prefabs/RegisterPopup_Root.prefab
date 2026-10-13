@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 6946443337453674669}
   - component: {fileID: 299512492559280467}
   m_Layer: 0
-  m_Name: CompletedAtInput
+  m_Name: ScheduledAtInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1318,6 +1318,15 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: "\uC124\uBE44 \uC120\uD0DD"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uACE0\uC555\uD38C\uD504 #1"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uACE0\uC555\uD38C\uD504 #2"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uBC38\uBE0C#1"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -2243,7 +2252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC644\uB8CC \uC2DC\uAC01 \uC785\uB825 (yyyy-MM-dd HH:mm)"
+  m_text: "\uC791\uC5C5 \uB0B4\uC6A9\uC744 \uC785\uB825\uD558\uC138\uC694 (\uC608: \uBCA0\uC5B4\uB9C1 \uB9C8\uBAA8 \uC758\uC2EC \uC810\uAC80)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f4e8ce93153e1334a8d328590099fe4b, type: 2}
   m_sharedMaterial: {fileID: 3874587297753132263, guid: f4e8ce93153e1334a8d328590099fe4b, type: 2}
@@ -2845,6 +2854,18 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: "\uC791\uC5C5 \uB9E4\uB274\uC5BC"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uACE0\uC555\uD38C\uD504 \uBCA0\uC5B4\uB9C1 \uC810\uAC80 \uB9E4\uB274\uC5BC v2.1"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uACE0\uC555\uD38C\uD504 \uAE34\uAE09 \uC810\uAC80 \uC808\uCC28\uC11C v1.3"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "RO \uBA64\uBE0C\uB808\uC778 \uC815\uAE30\uC810\uAC80 \uB9E4\uB274\uC5BC v3.0"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uC784\uD3A0\uB7EC \uAD50\uCCB4 \uC791\uC5C5 \uB9E4\uB274\uC5BC v1.8"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -3656,11 +3677,11 @@ RectTransform:
   - {fileID: 1554727501966592317}
   - {fileID: 3509051015407081977}
   - {fileID: 6722961954633306279}
+  - {fileID: 2876637287953585315}
   - {fileID: 992232692642960978}
   - {fileID: 3555963872155935588}
   - {fileID: 5372770696385307525}
   - {fileID: 2448967892766519528}
-  - {fileID: 2876637287953585315}
   - {fileID: 7316235724517300280}
   - {fileID: 4771416575151692568}
   m_Father: {fileID: 4871153235928947965}
@@ -4234,6 +4255,18 @@ MonoBehaviour:
     - m_Text: "\uC791\uC5C5 \uB0B4\uC6A9 \uC120\uD0DD"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uC815\uAE30 \uC810\uAC80"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uAE34\uAE09 \uC810\uAC80"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uBD80\uD488 \uAD50\uCCB4"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uC608\uBC29 \uC815\uBE44"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4616,6 +4649,15 @@ MonoBehaviour:
   m_Options:
     m_Options:
     - m_Text: "\uC791\uC5C5\uC790 \uC120\uD0DD"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uAE40\uBBFC\uC900"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uC774\uC11C\uC5F0"
+      m_Image: {fileID: 0}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: "\uBC15\uC9C0\uD6C8"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -5161,7 +5203,7 @@ GameObject:
   - component: {fileID: 9001444930604389652}
   - component: {fileID: 326170921309392375}
   m_Layer: 0
-  m_Name: ScheduledAtInput
+  m_Name: WorkContentInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
